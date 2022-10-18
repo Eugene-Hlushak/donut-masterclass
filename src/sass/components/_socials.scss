@@ -1,0 +1,14 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.socials__icon {
+  transition: fill 250ms ease;
+
+  .socials__link:hover &,
+  .socials__link:focus & {
+    fill: var(--accent-color);
+  }
+}

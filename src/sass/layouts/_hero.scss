@@ -1,0 +1,39 @@
+.hero {
+  padding-top: 86px;
+  padding-bottom: 8px;
+  text-align: center;
+
+  background-image: url('../images/mobile/background-hero-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('../images/mobile/background-hero-mobile@2x.jpg');
+  }
+}
+
+.hero__title {
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 18px;
+
+  font-family: 'Montserrat Alternates';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.subtitle {
+  font-family: 'Montserrat Alternates';
+  margin-bottom: 28px;
+}
+
+.hero__button {
+  display: inline-block;
+  margin-bottom: 28px;
+}

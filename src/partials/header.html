@@ -1,5 +1,36 @@
-<header>
-  <div class="container">
-    <picture class="logo"></picture>
+<header class="page-header">
+  <div class="container page-header__container">
+    <img
+      class="logo"
+      srcset="./images/logo/logo.png 1x, ./images/logo/logo@2x.png 2x"
+      alt="donut logo"
+    />
+
+    <ul class="navigation list">
+      <li class="navigation__item">
+        <a href="#about" class="navigation__link link">About us</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#program" class="navigation__link link">Program</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#speakers" class="navigation__link link">Speakers</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#price" class="navigation__link link">Price</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#reviews" class="navigation__link link">Reviews</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#contacts" class="navigation__link link">Contacts</a>
+      </li>
+    </ul>
+
+    <button class="menu-button" type="button">
+      <svg class="button-burger" width="30" height="16">
+        <use href="./images/sprite.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
