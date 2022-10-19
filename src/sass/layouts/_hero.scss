@@ -21,7 +21,7 @@
   margin-left: auto;
   margin-bottom: 18px;
 
-  font-family: 'Montserrat Alternates';
+  font-family: var(--section-title-font);
   font-weight: 600;
   font-size: 28px;
   line-height: 1.21;
@@ -29,11 +29,12 @@
 }
 
 .subtitle {
-  font-family: 'Montserrat Alternates';
+  font-family: var(--section-title-font);
   margin-bottom: 28px;
 }
 
 .hero__button {
   display: inline-block;
+  font-weight: 400;
   margin-bottom: 28px;
 }
