@@ -1,0 +1,35 @@
+.speakers {
+  padding-bottom: 35px;
+}
+
+.speakers .section__title {
+  margin-bottom: 12px;
+}
+
+.speakers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.speakers__card {
+  text-align: center;
+  flex-basis: calc((100% - 20px) / 2);
+}
+
+.speakers__photo {
+  margin-bottom: 12px;
+}
+
+.speakers__name {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.speakers__position {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: var(--main-text-color);
+}
