@@ -8,15 +8,8 @@
   margin-bottom: 28px;
 }
 
-.section__title {
+.section__title--about-us {
   margin-bottom: 8px;
-
-  font-family: var(--section-title-font);
-
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.21;
-  text-align: center;
 }
 
 .about-us__text {
@@ -31,10 +24,4 @@
 .read-more {
   display: none;
   visibility: hidden;
-}
-
-.open-text {
-  background-color: transparent;
-  border: none;
-  color: var(--main-text-color);
 }

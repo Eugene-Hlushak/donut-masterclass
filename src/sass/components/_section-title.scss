@@ -1,0 +1,16 @@
+.section__title {
+  font-family: var(--section-title-font);
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: center;
+}
+
+.section__title--smaller-font-weight {
+  font-weight: 500;
+}
+
+.section__title--bigger-font-weight {
+  font-weight: 600;
+}
