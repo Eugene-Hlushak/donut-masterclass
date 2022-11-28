@@ -1,0 +1,62 @@
+.price .section__title {
+  margin-bottom: 27px;
+}
+
+.price__item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 18px;
+  padding-left: 8px;
+
+  background-color: var(--cards-bg-color);
+  box-shadow: 10px 15px 25px rgba(210, 201, 201, 0.45);
+  border-radius: 25px;
+}
+
+.price__item:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.price__item--middle {
+  border: 1px solid #f3848c;
+}
+
+.price__offer {
+  margin-bottom: 11px;
+
+  font-family: var(--section-title-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.offer__list {
+  margin-bottom: 30px;
+}
+
+.offer__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.offer__text {
+  position: relative;
+  padding-left: 36px;
+}
+
+.offer__text::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-image: url('../images/list-icon/list-icon.png');
+}
